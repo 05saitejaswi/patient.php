@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>project1 (4)</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+</head>
+
+<body><img src="/assets/img/img_logo.png">
+    <div class="jumbotron" style="background-color: rgb(155,135,235);">
+        <h1 class="text-center" style="font-family: 'Dancing Script', cursive;font-size: 50px;"><strong>Sathyabama Dental &nbsp;collage and Hospitals</strong></h1>
+        <p class="text-center">Your Saftey Our Duty</p><a style="color: white;" href="/index.html"><i class="fas fa-arrow-left"></i>&nbsp; back</a></div>
+    <div class="container text-left" style="background-color: white;">
+        <div><form action="patientreg.php" method="post">
+    <div class="form-group">
+        <div id="formdiv">
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Name </strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><input type="text" class="form-control" style="margin-left:0px;font-family:Roboto, sans-serif;" name="name" placeholder="Name" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;margin-top:-16px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Gender </strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><select class="form-control" style="  font-family: Roboto, sans-serif;
+" name="gender"><optgroup label="This is a group"><option value="12" selected>Male</option><option value="13">Female</option><option value="14">Others</option></optgroup></select></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Birth Date</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><input class="form-control" style="font-family:Roboto, sans-serif;" name="birthDate" type="date" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Adresss</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><input type="text" class="form-control" style="margin-left:0px;font-family:Roboto, sans-serif;" name="birthPlace" placeholder="Place" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Occupation</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1" style="font-family:Roboto, sans-serif;"><input type="text" class="form-control" style="margin-left:0px;" placeholder="Occupation" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Father&#39;s Name</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><input type="text" class="form-control" style="margin-left:0px;font-family:Roboto, sans-serif;" placeholder="Name" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Mobile no</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><input type="number" class="form-control" style="font-family:Roboto, sans-serif;" placeholder="Number" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Register Date</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><input class="form-control" style="font-family:Roboto, sans-serif;" type="date" /></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-md-8 offset-md-1">
+                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Problem</strong></p>
+                </div>
+                <div class="col-md-10 offset-md-1"><textarea class="form-control" style="font-family:Roboto, sans-serif;font-size:14px;" placeholder="Problem"></textarea></div>
+            </div>
+            <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                <div class="col-12 col-md-4 offset-md-4"><button class="btn btn-light btn-lg" style="font-family:Roboto, sans-serif;" type="reset">Clear </button><button class="btn btn-light btn-lg" style="margin-left:16px;" type="submit">Submit </button></div>
+            </div>
+        </div>
+    </div>
+</form></div>
+    </div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
